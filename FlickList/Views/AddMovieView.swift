@@ -39,7 +39,7 @@ struct AddMovieView: View {
                         }
                 }
                 Spacer()
-                HStack {
+                VStack {
                     Button(action: showEnterRatingAlert) {
                         Text("Add to Watched")
                     }
